@@ -201,6 +201,36 @@
   filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.section-3{
+  margin: 79px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-3{
+  background-color: #00093C;
+  color: white;
+}
+
+.header-container-3{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.button-request{
+  background-color: #F7941D;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  border-radius: 6px;
+  height: 50px;
+  width: 180px;
+  cursor: pointer;
+  border: none;
+}
+
 .footer-section{
   height: 560px;
   width: 1920px;
