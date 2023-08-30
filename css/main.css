@@ -11,7 +11,6 @@
 .header-container{
   margin: 0 auto;
   width: 1250px;
-  background: wheat;
   font-size: 14px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +18,9 @@
   height: 110px;
 }
 
-.text-header{
+.text-with-pic-header{
+  position: relative;
+  top: -3px;
 }
 
 .top_icon{
@@ -31,7 +32,132 @@
   color: #00093C;
 }
 
+.btn-secondary{
+  background-color: transparent;
+  border: none;
+}
 
+.btn-secondary:hover{
+  color: black;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-secondary:focus{
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.btn{
+  color: black;
+}
+
+.section-1{
+  position: relative;
+  background: url("../img/bg-top.png");
+  height: 480px;
+}
+
+.line-decor-1{
+  position: absolute;
+  top: 400px;
+  left: 645px;
+  z-index: 1;
+}
+
+.line-decor-2{
+  position: absolute;
+  top: 260px;
+  left: 100px;
+  z-index: 1;
+}
+
+.container-1{
+  width: 1220px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+}
+
+.header-text{
+  position: relative;
+  top: 37px;
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.second-text-header{
+  position: relative;
+  top: 75px;
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+  font-size: 14px;
+}
+
+.price-top{
+  position: relative;
+  top: 115px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.open-it-summer{
+  position: relative;
+  top: 130px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.line-over-full-day{
+  background-image: linear-gradient(to right,rgba(247, 148, 29, 1), rgba(39, 170, 225, 1));
+  width: 127px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.line-over-half-day{
+  background-image: linear-gradient(to right,rgba(247, 148, 29, 1), rgba(39, 170, 225, 1));
+  width: 95px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.line-over-price-top{
+  background-image: linear-gradient(to right,rgba(247, 148, 29, 1), rgba(39, 170, 225, 1));
+  width: 245px;
+  height: 2px;
+  margin-bottom: 3px;
+}
+
+.button-top{
+  position: relative;
+  top: 143px;
+  background-color: #F7941D;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  border-radius: 6px;
+  height: 50px;
+  width: 180px;
+  cursor: pointer;
+  border: none;
+}
+
+.section-2{
+  background: white;
+}
+
+.container-2{
+  width: 1220px;
+  margin: 79px auto 0 auto;
+  display: flex;
+
+}
 
 .footer-section{
   height: 560px;
