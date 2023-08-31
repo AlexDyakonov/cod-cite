@@ -202,7 +202,6 @@
 }
 
 .section-3{
-  position: relative;
   background-color: #00093C;
   display: flex;
   justify-content: center;
@@ -254,15 +253,37 @@
 
 .section-4{
   background: white;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-4{
-
+  width: 1220px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .container-4-text-behind{
+  z-index: 1;
+  margin-top: 10px;
+  color: rgba(0, 9, 60, 0.08);
+  font-size: 86px;
+  font-weight: bold;
+  position: absolute;
+}
 
+.schedule-content{
+  margin-top: 85px;
+  margin-bottom: 62px;
+  display: flex;
+  color: #00093C;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.schedule{
+  margin-left: 10px;
 }
 
 .footer-section{
