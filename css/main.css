@@ -355,6 +355,7 @@
 }
 
 .footer-container{
+  position: relative;
   height: 560px;
   width: 1220px;
   display: flex;
@@ -366,8 +367,37 @@
 .column-header{
   font-size: 16px;
   font-weight: bold;
+  margin: 25px 0;
 }
 
 .footer-logo{
+  position: absolute;
+  top: 100px;
+  left: 0;
   scale: 70%;
+}
+
+.column-1{
+  margin-top: 195px;
+}
+
+.phone-number-footer{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.default-footer-text{
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.footer-icons{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-footer{
+  line-height: 34px;
 }
