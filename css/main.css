@@ -264,6 +264,34 @@
   justify-content: space-evenly;
 }
 
+.section-5{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-5{
+  width: 1220px;
+  display: flex;
+  justify-content: center;
+}
+
+.lessons-h-text{
+  text-align: center;
+  color: #00093C;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.lessons-description{
+  color: black;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  width: 447px;
+}
+
 .container-4-text-behind{
   z-index: 1;
   margin-top: 10px;
