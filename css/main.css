@@ -202,23 +202,44 @@
 }
 
 .section-3{
-  margin: 79px auto 0 auto;
+  position: relative;
+  background-color: #00093C;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container-3{
-  background-color: #00093C;
+  width: 1220px;
   color: white;
+  display: grid;
+  place-items: center;
 }
 
 .header-container-3{
+  margin-top: 40px;
+  margin-bottom: 56px;
   font-size: 36px;
   font-weight: bold;
 }
 
+.dates{
+  display: flex;
+  margin: auto;
+}
+
+.dates-content{
+  margin: 0 30px;
+  font-size: 18px;
+}
+
+.line-between-dates{
+  margin: auto 15px;
+}
+
 .button-request{
+  margin-top: 55px;
+  margin-bottom: 40px;
   background-color: #F7941D;
   color: white;
   font-weight: bold;
@@ -229,6 +250,19 @@
   width: 180px;
   cursor: pointer;
   border: none;
+}
+
+.section-4{
+  background: white;
+  height: 100px;
+}
+
+.container-4{
+
+}
+
+.container-4-text-behind{
+
 }
 
 .footer-section{
