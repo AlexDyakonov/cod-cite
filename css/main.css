@@ -25,7 +25,7 @@
 
 .top_icon{
   position: relative;
-  bottom: -4px;
+  bottom: 1px;
 }
 
 .phone-number{
@@ -319,6 +319,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .container-6{
@@ -347,6 +348,31 @@
   margin-top: 18px;
 }
 
+.section-7{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-7{
+  width: 1220px;
+  height: 260px;
+}
+
+.img-form{
+  z-index: 1;
+}
+
+.form{
+
+  width: 440px;
+  height: 50px;
+  border-radius: 6px;
+  background: rgba(0, 9, 60, 0.1);
+  z-index: 2;
+}
+
 .footer-section{
   background-color: #00093C;
   display: flex;
@@ -373,7 +399,7 @@
 .footer-logo{
   position: absolute;
   top: 100px;
-  left: 0;
+  left: -17px;
   scale: 70%;
 }
 
